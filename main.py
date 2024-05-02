@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 max_WBC = []
 for j in range(1, 10):
     filename = 'Result00' + str(j)+ '.txt'
-    file = open(filename, 'r')
+    file = open('Data\\' + filename, 'r')
 
     d = {}
     lines = list(file.readlines())
